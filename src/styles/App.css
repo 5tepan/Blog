@@ -36,3 +36,19 @@
     transform: translateX(-350px);
     transition: opacity 300ms, transform 300ms;
 }
+
+.page__wrapper {
+    margin-top: 30px;
+    display: flex;
+}
+
+.page {
+    padding: 10px;
+    border: 1px solid coral;
+    cursor: pointer;
+}
+
+.currPage {
+    border: 3px solid coral;
+    font-weight: bold;
+}
